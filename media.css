@@ -1,0 +1,78 @@
+@media (max-width: 576px){
+    nav{
+        display: none;
+    }
+    
+    .list_items{
+        opacity: 1;
+    }
+    .p{
+        padding-left: 36%;
+        
+    }
+    .wrapper .menu-btn{
+        margin-left: 20%;
+    }
+    .about{
+        margin-left: 180px;
+    }
+    .first{
+        margin-right: 65px;
+    }
+    #SkillBox{
+        height: auto;
+        width: 200%;
+        left: 100px;
+        top: 150vh;
+        display: flex;
+        justify-content: center;
+    }
+    #login{
+        left: 500px;
+        top: 310vh;
+    }
+    #payment{
+        left: 350px;
+        width: 700px;
+        top: 430vh;
+    }
+    #contact{
+        width: 1000px;
+        left: 180px;
+        top: 590vh;
+        height: 700px;
+    }
+    .containerrrrr{
+        margin-top: -50px;
+        text-align: center;
+        /* align-items: center; */
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+    .list-items{
+        width: 400px;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        color: #d9d9d9;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        list-style: none;
+        position: absolute;
+        bottom: 0;
+        /* top: 540vh; */
+        right: 0;
+        width: 750px;
+        height: auto;
+        /* background: rgb(0, 255, 136); */
+        /* display: flex; */
+        top: 750vh;
+    }
+}
